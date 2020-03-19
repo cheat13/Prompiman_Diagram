@@ -12,3 +12,10 @@
 ![Return_Room diagram](out/diagram/Check-in/Return_Room/Return_Room.png)
 
 ---
+
+## Extra
+
+### Extra diagram 
+![Extra diagram](out/diagram/Extra/Extra/Extra.png)
+
+---
