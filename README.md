@@ -3,12 +3,12 @@
 ## Check-in
 
 ### Check-in diagram 
-![alt text](out\diagram\Check-in\Check-in\Check-in.png)
+![Check-in diagram](out/diagram/Check-in/Check-in/Check-in.png)
 
 ### Bill diagram 
-![Bill diagram](out\diagram\Check-in\Bill\Bill.png)
+![Bill diagram](out/diagram/Check-in/Bill/Bill.png)
 
 ### Return_Room diagram 
-![Return_Room diagram](out\diagram\Check-in\Return_Room\Return_Room.png)
+![Return_Room diagram](out/diagram/Check-in/Return_Room/Return_Room.png)
 
 ---
