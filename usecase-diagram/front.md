@@ -8,6 +8,7 @@
 (Reservation) as (booking)
 (ห้องผู้บริหาร)
 (ห้องซ่อม)
+(เลือกห้องพัก) as (rooms)
 (Guest in House) as (guest)
 (รร.4)
 (Cashier Report) as (report)
@@ -33,5 +34,7 @@ user ---> (ใบกำกับภาษี)
 (Check-in) -> (คิดเงิน)
 (Check-out) -> (คิดเงิน)
 (ใบกำกับภาษี) -> (คิดเงิน)
+(Check-in) <-- (rooms)
+(booking) <-- (rooms)
 
 @enduml
