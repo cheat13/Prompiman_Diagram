@@ -26,3 +26,10 @@
 ![Extra diagram](out/activity-diagram/Extra/Extra/Extra.png)
 
 ---
+
+### Room
+
+#### Room 
+![Extra diagram](out/activity-diagram/room/room/room.png)
+
+---
