@@ -1,21 +1,28 @@
 # Prompiman_Diagram
 
-## Check-in
+## Usercase Diagram
 
-### Check-in diagram 
+![Usercase](out/usecase-diagram/front/front.png)
+
+
+## Activity Diagram
+
+### Check-in
+
+#### Check-in 
 ![Check-in diagram](out/diagram/Check-in/Check-in/Check-in.png)
 
-### Bill diagram 
+#### Bill 
 ![Bill diagram](out/diagram/Check-in/Bill/Bill.png)
 
-### Return_Room diagram 
+#### Return_Room 
 ![Return_Room diagram](out/diagram/Check-in/Return_Room/Return_Room.png)
 
 ---
 
-## Extra
+### Extra
 
-### Extra diagram 
+#### Extra 
 ![Extra diagram](out/diagram/Extra/Extra/Extra.png)
 
 ---

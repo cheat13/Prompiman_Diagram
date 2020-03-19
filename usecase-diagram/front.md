@@ -1,0 +1,37 @@
+@startuml
+
+:Front: as user
+(Register) as (regis)
+(Check-in)
+(Check-out)
+(Extra)
+(Reservation) as (booking)
+(ห้องผู้บริหาร)
+(ห้องซ่อม)
+(Guest in House) as (guest)
+(รร.4)
+(Cashier Report) as (report)
+(ใบกำกับภาษี)
+(ใบเสร็จ)
+(คิดเงิน)
+(คืนห้อง)
+
+user -> (regis)
+(regis) -> (Check-in)
+(Check-in) -> (Check-out)
+(Check-in) -> (Extra)
+(Check-in) -> (คืนห้อง)
+user -> (booking)
+(booking) -> (Check-in)
+user --> (ห้องผู้บริหาร)
+user --> (ห้องซ่อม)
+(Check-in) --> (guest)
+(Check-in) --> (รร.4)
+(คิดเงิน) <- (report)
+user ---> (ใบกำกับภาษี)
+(Check-out) <--- (ใบเสร็จ)
+(Check-in) -> (คิดเงิน)
+(Check-out) -> (คิดเงิน)
+(ใบกำกับภาษี) -> (คิดเงิน)
+
+@enduml
