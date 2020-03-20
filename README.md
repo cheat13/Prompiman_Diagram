@@ -35,3 +35,18 @@
 ![Extra diagram](out/activity-diagram/room/executive/executive.png)
 
 ---
+
+### Management
+
+#### Guest in house 
+![Guest in house diagram](out\activity-diagram\Management\Guest_in_House\Guest_in_House.png)
+#### ร.ร.๔ 
+![LL4 diagram](out/activity-diagram/Management/LL4/ร.ร.๔.png)
+
+#### ใบเสร็จ 
+![Bill diagram](out/activity-diagram/Management/Bill/ใบเสร็จ.png)
+
+#### Cashier Report 
+![Cashier Report diagram](out\activity-diagram\Management\Cashier_report\Cashier_report.png)
+
+---
