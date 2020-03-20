@@ -28,7 +28,10 @@
 
 ### Room
 
-#### Room 
-![Extra diagram](out/activity-diagram/room/room/room.png)
+#### Outoforder 
+![Extra diagram](out/activity-diagram/room/outofder/outofder.png)
+
+#### Executive 
+![Extra diagram](out/activity-diagram/room/executive/executive.png)
 
 ---
