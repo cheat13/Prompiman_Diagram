@@ -19,6 +19,13 @@
 ![Return_Room diagram](out/activity-diagram/Check-in/Return_Room/Return_Room.png) -->
 ---
 
+### Check-out
+
+#### Check-out 
+![Check-out diagram](out/activity-diagram/Check-out/checkout/checkout.png)
+
+---
+
 ### Extra
 
 #### Extra 
@@ -52,4 +59,11 @@
 
 #### Tax Invoice
 ![Tax Invoice diagram](out/activity-diagram/Management/TaxInvoice/ใบกำกับภาษี.png)
+
+---
+### Reservation
+
+#### Reservation 
+![Extra diagram](out/activity-diagram/reservation/reservation/reservation.png)
+
 ---
