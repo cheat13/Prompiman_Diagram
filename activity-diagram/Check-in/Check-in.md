@@ -48,6 +48,5 @@ else (ไม่มี)
 endif
 
 :คิดเงิน|
-
 stop
 @enduml
