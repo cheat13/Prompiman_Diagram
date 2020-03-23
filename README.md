@@ -50,4 +50,6 @@
 #### Cashier Report 
 ![Cashier Report diagram](out/activity-diagram/Management/Cashier_report/Cashier_report.png)
 
+#### Tax Invoice
+![Tax Invoice diagram](out/activity-diagram/Management/TaxInvoice/ใบกำกับภาษี.png)
 ---
