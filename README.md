@@ -14,6 +14,7 @@
 
 <!-- #### Bill 
 ![Bill diagram](out/activity-diagram/Check-in/Bill/Bill.png)
+
 #### Return_Room 
 ![Return_Room diagram](out/activity-diagram/Check-in/Return_Room/Return_Room.png) -->
 ---
