@@ -56,10 +56,6 @@
 
 #### Cashier Report 
 ![Cashier Report diagram](out/activity-diagram/Management/Cashier_report/Cashier_report.png)
-### Reservation
-
-#### Reservation 
-![Extra diagram](out/activity-diagram/reservation/reservation/reservation.png)
 
 #### Tax Invoice
 ![Tax Invoice diagram](out/activity-diagram/Management/TaxInvoice/ใบกำกับภาษี.png)
