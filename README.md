@@ -2,9 +2,9 @@
 
 ## Usercase Diagram
 
-![Usercase](out/usecase-diagram/front3/front3.png)
+![Usercase](out/activity-diagram/room/use/use.png)
 
-
+![Usercase](out/activity-diagram/room/xxx/xxx.png)
 ## Activity Diagram
 
 ### Check-in
