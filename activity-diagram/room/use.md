@@ -8,10 +8,9 @@
 :การเงิน: as money
 :บัญชี: as account
 
-
 front --> (Login) 
-front --> (คิดเงิน)
 front --> (ลบรายรับอื่นๆของโรงแรม) 
+front --> (คิดเงิน)
 front --> (แก้ไขใบกำกับภาษี) 
 front --> (ยกเลิกใบกำกับภาษี) 
 front --> (คิดเงินลูกค้าจะ Checkout)
@@ -21,17 +20,19 @@ user --> (Checkout)
 user --> (เรียกดู Master Detail)
 user --> (คืนห้องที่เข้าพัก)
 user --> (ขอใบเสร็จ)
-user --> (Check-in "newbie")
-user --> (Check-in "member")
+user --> (Check-in)
 user --> (จองห้องพักล่วงหน้า)
 user --> (ขอใบกำกับภาษี)
 
-(Checkout) <.. (Checkout ไม่ใช่ห้องสุดท้าย)
-(Checkout) <.. (Checkout ห้องสุดท้าย)
+(Check-in) <.. (Check-in "newbie")
+(Check-in) <.. (Check-in "member")
 
-(Checkout) ..> (คิดเงินลูกค้าจะ Checkout)
+(Checkout) <... (Checkout ไม่ใช่ห้องสุดท้าย)
+(Checkout) <... (Checkout ห้องสุดท้าย)
 
-(Check-in "newbie") ..> (ลงทะเบียน)
+(Checkout) ..> (คิดเงิน)
+
+(Check-in "newbie") ...> (ลงทะเบียน)
 (Check-in "newbie") ..> (เลือกห้องพักที่ว่าง)
 (Check-in "member") ..> (เลือกห้องพักที่ว่าง)
 (จองห้องพักล่วงหน้า) ..> (เลือกห้องพักที่ว่าง)
@@ -42,12 +43,13 @@ user --> (ขอใบกำกับภาษี)
 (เรียกดู Master Detail) <.. (จ่ายเงินระหว่างพัก)
 (เรียกดู Master Detail) <.. (เรียกดูค่าใช้จ่ายเพิ่มเติม)
 
+(จ่ายเงินระหว่างพัก) ..> (คิดเงิน)
+
 (ขอใบกำกับภาษี) <.. (ขอใบกำกับภาษีแบบธรรมดา)
 (ขอใบกำกับภาษี) <.. (ขอใบกำกับภาษีแบบ Over bill)
 (ขอใบกำกับภาษี) ....> (คิดเงิน)
 (Check-in "newbie") ..> (คิดเงิน)
 (Check-in "member") ..> (คิดเงิน)
-
 
 money --> (ขอ Cashier report)
 account --> (ขอ Cashier report)
@@ -66,8 +68,5 @@ maid --> (แจ้งค่าใช้จ่ายเพิ่มเติม)
 (แจ้งค่าใช้จ่ายเพิ่มเติม) <.. (แจ้งค่า ของชำรุด)
 
 food ---> (ขอ Guest in house)
-
-
-
 
 @enduml
