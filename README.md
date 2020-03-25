@@ -10,13 +10,13 @@
 ### Register
 
 #### Register
-![Register diagram](out/activity-diagram/Register/Register/Register.png)
+![Register diagram](out/activity-diagram/Register/Register/Register(ลงทะเบียนสมาชิก).png)
 
 ---
 ### Check-in
 
 #### Check-in 
-![Check-in diagram](out/activity-diagram/Check-in/Check-in/Check-in.png)
+![Check-in diagram](out/activity-diagram/Check-in/Check-in/Check-in(ลงทะเบียนเข้าพัก).png)
 
 <!-- #### Bill 
 ![Bill diagram](out/activity-diagram/Check-in/Bill/Bill.png)
