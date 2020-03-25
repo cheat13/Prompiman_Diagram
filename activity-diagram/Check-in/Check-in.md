@@ -1,10 +1,12 @@
 @startuml
+title Check-in\n(ลงทะเบียนเข้าพัก)
 start
 
-if (เคยเข้าพัก?) then (เคย)
+:ตรวจสอบข้อมูลลูกค้าในระบบ;
 
-else (ไม่เคย)
+if (เคยลงทะเบียนแล้ว?) then (ไม่ใช่)
     :ลงทะเบียนสมาชิก|
+else (ใช่)
 endif
 
 :กรอกข้อมูลผู้เข้าพัก;
@@ -35,25 +37,36 @@ else (ไม่)
     endnote
 
 endif
-  
+
+(B)
 if (มีชื่อ group นี้ในระบบ?) then (มี)
     if (เจ้าของชื่อ group คือ\nmaster ที่กำลัง Check-in?) then (ใช่)
         :         ระบบแจ้ง\n"ต้องการเพิ่มห้องใน\n group เดิมหรือไม่?;
         if (เพิ่มห้องใน group เดิม?") then (ใช่)
-        :เพิ่มห้องใน group เดิม;
+        :tag ว่าเป็นการ\nเพิ่มห้องใน group เดิม;
         else (ไม่)
-            :ให้เปลี่ยนชื่อ group;
+            (A)
             detach
         endif
     else (ไม่)
-        :ให้เปลี่ยนชื่อ group;
+        (A)
         detach
     endif
 else (ไม่มี)
-    :สร้าง master ใหม่;    
+    :tag ว่าเป็นการ\nสร้าง master ใหม่;    
 endif
 
 :คิดเงิน|
-
+:บันทึกข้อมูลการ Check-in;
+note right
+    - จัดการห้องที่ถูก Check-in 
+      ให้กลายเป็นห้องที่มีการเข้าพัก
+endnote
 stop
+
+(A)
+:            ระบบแจ้ง\n"กรุณาเปลี่ยนชื่อ group";
+:เปลี่ยนชื่อ group;
+(B)
+
 @enduml
