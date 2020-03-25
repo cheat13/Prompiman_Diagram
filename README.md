@@ -7,6 +7,12 @@
 ![Usercase](out/activity-diagram/room/xxx/xxx.png)
 ## Activity Diagram
 
+### Register
+
+#### Register
+![Register diagram](out/activity-diagram/Register/Register/Register.png)
+
+---
 ### Check-in
 
 #### Check-in 
