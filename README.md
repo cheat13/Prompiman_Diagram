@@ -9,20 +9,21 @@
 
 ### Register
 
-#### Register
 ![Register diagram](out/activity-diagram/Register/Register/Register(ลงทะเบียนสมาชิก).png)
 
 ---
 ### Check-in
 
-#### Check-in 
 ![Check-in diagram](out/activity-diagram/Check-in/Check-in/Check-in(ลงทะเบียนเข้าพัก).png)
 
 <!-- #### Bill 
-![Bill diagram](out/activity-diagram/Check-in/Bill/Bill.png)
+![Bill diagram](out/activity-diagram/Check-in/Bill/Bill.png) -->
 
-#### Return_Room 
-![Return_Room diagram](out/activity-diagram/Check-in/Return_Room/Return_Room.png) -->
+---
+### Return_Room 
+
+![Return_Room diagram](out/activity-diagram/Check-in/Return_Room/Return_Room(คืนห้อง).png)
+
 ---
 
 ### Check-out
