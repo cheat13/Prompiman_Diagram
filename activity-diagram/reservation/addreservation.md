@@ -13,7 +13,7 @@ partition ref {
 note right
 เงินที่  นำมาแสดง คือเงินสำรองจ่าย(เป็น 0 บาทได้) 
 end note
-
+stop
 @enduml
 
 
