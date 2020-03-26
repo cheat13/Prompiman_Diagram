@@ -42,14 +42,34 @@
 
 ---
 
-### Room
+## ห้องพักไม่พร้อมขาย
 
-#### Outoforder 
-![Extra diagram](out/activity-diagram/room/outofder/outofder.png)
+### Outoforder 
 
-#### Executive 
-![Extra diagram](out/activity-diagram/room/executive/executive.png)
+#### แจ้งซ่อม
+![Extra diagram](out/activity-diagram/room/outofder/แจ้งซ่อม.png)
 
+#### ซ่อมเสร็จ
+![Extra diagram](out/activity-diagram/room/ooo/ซ่อมห้องเสร็จ.png)
+
+### Executive 
+#### แจ้งเข้าพัก
+![Extra diagram](out/activity-diagram/room/executive/ห้องพักผู้บริหาร.png)
+
+#### แจ้งย้ายออก
+![Extra diagram](out/activity-diagram/room/deleteexecutive/แจ้งออกห้องพักผู้บริหาร.png)
+---
+
+### Reservation
+
+#### เพิ่มจองห้อง 
+![Extra diagram](out/activity-diagram/reservation/addreservation/จองห้องพักล่วงหน้า.png)
+
+#### แก้ไขข้อมูลการจอง 
+![Extra diagram](out/activity-diagram/reservation/editreservation/แก้ไขการจองห้อง.png)
+
+#### ยกเลิกการจอง 
+![Extra diagram](out/activity-diagram/reservation/cancelreservation/ยกเลิกการจองห้อง.png)
 ---
 
 ### Management
@@ -74,11 +94,5 @@
 
 #### ยกเลิกใบกำกับภาษี
 ![Tax Invoice cancel diagram](out/activity-diagram/Management/TaxInvoice_cancel/ยกเลิกใบกำกับภาษี.png)
-
----
-### Reservation
-
-#### Reservation 
-![Extra diagram](out/activity-diagram/reservation/reservation/reservation.png)
 
 ---
