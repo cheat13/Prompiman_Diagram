@@ -44,6 +44,11 @@ else (ไม่)
 
 endif
 
+:เลือกจ่ายค่ามัดจำ;
+note right: (default: เลือก)
+:เลือกขอใบกำกับภาษี;
+note right: (default: ไม่เลือก)
+
 (B)
 if (มีชื่อกลุ่มนี้ในระบบ?) then (มี)
     if (เจ้าของชื่อกลุ่มคือ\nmaster ที่กำลัง Check-in?) then (ใช่)

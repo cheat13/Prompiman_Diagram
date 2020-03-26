@@ -17,6 +17,11 @@
 ![Check-in diagram](out/activity-diagram/Check-in/Check-in/Check-in(ลงทะเบียนเข้าพัก).png)
 
 ---
+### เลือกห้องพักที่ว่าง
+
+![Room_Select diagram](out/activity-diagram/Room_Select/Room_Select/เลือกห้องพักที่ว่าง.png)
+
+---
 ### Master
 
 ![Master_Bill diagram](out/activity-diagram/Master/Master_Bill/จ่ายเงินระหว่างพัก.png)
