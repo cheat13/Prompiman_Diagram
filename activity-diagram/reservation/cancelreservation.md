@@ -6,4 +6,5 @@ start
 note right
 ต้องใส่หมายเหตุการยกเลิกการจองห้องพักถึงจะกดบันทึกได้
 end note
+stop
 @enduml
