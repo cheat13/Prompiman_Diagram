@@ -13,7 +13,6 @@ front --> (ลบรายรับอื่นๆของโรงแรม)
 front --> (คิดเงิน)
 front --> (แก้ไขใบกำกับภาษี) 
 front --> (ยกเลิกใบกำกับภาษี) 
-front --> (คิดเงินลูกค้าจะ Checkout)
 front --> (เลือกห้องพักที่ว่าง)
 
 user --> (Checkout)
@@ -26,9 +25,6 @@ user --> (ขอใบกำกับภาษี)
 
 (Check-in) <.. (Check-in "newbie")
 (Check-in) <.. (Check-in "member")
-
-(Checkout) <... (Checkout ไม่ใช่ห้องสุดท้าย)
-(Checkout) <... (Checkout ห้องสุดท้าย)
 
 (Checkout) ..> (คิดเงิน)
 
