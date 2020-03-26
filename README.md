@@ -16,20 +16,22 @@
 
 ![Check-in diagram](out/activity-diagram/Check-in/Check-in/Check-in(ลงทะเบียนเข้าพัก).png)
 
-<!-- #### Bill 
-![Bill diagram](out/activity-diagram/Check-in/Bill/Bill.png) -->
+---
+### Master
+
+![Master_Bill diagram](out/activity-diagram/Master/Master_Bill/จ่ายเงินระหว่างพัก.png)
+
+![Master_Closed diagram](out/activity-diagram/Master/Master_Closed/ปิด_Master.png)
+
+---
+### Check-out
+ 
+![Check-out diagram](out/activity-diagram/Check-out/checkout/checkout.png)
 
 ---
 ### Return_Room 
 
 ![Return_Room diagram](out/activity-diagram/Check-in/Return_Room/Return_Room(คืนห้อง).png)
-
----
-
-### Check-out
-
-#### Check-out 
-![Check-out diagram](out/activity-diagram/Check-out/checkout/checkout.png)
 
 ---
 
