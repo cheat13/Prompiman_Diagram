@@ -96,10 +96,10 @@
 ![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_normalcase/ขอใบกำกับภาษี-เคสพักรร..png) 
 
 ##### เคสไม่ได้เข้าพักรร.
-![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_othercase/ขอใบกำกับภาษี-เคสที่ไม่ได้เข้าพักรร..png) 
+![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_othercase/ขอใบกำกับภาษี-เคสไม่ได้เข้าพักรร..png) 
 
 ##### เคสHOLDบิล หรือ สถานะ : รอการยืนยันข้อมูล
-![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_holdBill/ขอใบกำกับภาษี-เคสHOLDบิล(สถานะรอการยืนยันข้อมูล).png) 
+![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_holdBill/ขอใบกำกับภาษีสถานะรอการยืนยันข้อมูล(เคสHOLDบิล).png) 
 
 
 ---
