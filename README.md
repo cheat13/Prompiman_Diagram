@@ -64,13 +64,7 @@
 ![Cashier Report diagram](out/activity-diagram/Management/Cashier_report/Cashier_report.png)
 
 #### ขอใบกำกับภาษี
-![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice_add/ขอใบกำกับภาษี.png) 
-
-#### แก้ไขใบกำกับภาษี
-![Tax Invoice edit diagram](out/activity-diagram/Management/TaxInvoice_edit/แก้ไขใบกำกับภาษี.png) 
-
-#### ยกเลิกใบกำกับภาษี
-![Tax Invoice cancel diagram](out/activity-diagram/Management/TaxInvoice_cancel/ยกเลิกใบกำกับภาษี.png)
+![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice/ขอใบกำกับภาษี.png) 
 
 ---
 ### Reservation
