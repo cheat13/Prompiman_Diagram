@@ -31,7 +31,7 @@
 ---
 ### Check-out
  
-![Check-out diagram](out/activity-diagram/Check-out/checkout/checkout.png)
+![Check-out diagram](out\activity-diagram\Check-out\checkout\checkout.png)
 
 ---
 ### Return_Room 
@@ -43,7 +43,7 @@
 ### Extra
 
 #### Extra 
-![Extra diagram](out/activity-diagram/Extra/Extra/Extra.png)
+![Extra diagram](out\activity-diagram\Extra\แจ้งค่าใช้จ่ายเพิ่มเติม\แจ้งค่าใช้จ่ายเพิ่มเติม;.png)
 
 ---
 
