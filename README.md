@@ -31,7 +31,7 @@
 ---
 ### Check-out
  
-![Check-out diagram](out\activity-diagram\Check-out\checkout\checkout.png)
+![Check-out diagram](out/activity-diagram/Check-out/checkout/checkout.png)
 
 ---
 ### Return_Room 
