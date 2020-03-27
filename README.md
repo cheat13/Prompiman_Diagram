@@ -77,21 +77,24 @@
 ![Extra diagram](out/activity-diagram/reservation/cancelreservation/ยกเลิกการจองห้อง.png)
 ---
 
-### Management
+## Management
 
-#### Guest in house 
+### Guest in house 
 ![Guest in house diagram](out/activity-diagram/Management/Guest_in_House/Guest_in_House.png)
 
-#### ร.ร.๔ 
+### ร.ร.๔ 
 ![LL4 diagram](out/activity-diagram/Management/LL4/ร.ร.๔.png)
 
-#### ใบเสร็จ 
+### ใบเสร็จ 
 ![Bill diagram](out/activity-diagram/Management/Bill/ใบเสร็จ.png)
 
-#### Cashier Report 
-![Cashier Report diagram](out/activity-diagram/Management/Cashier_report/Cashier_report.png)
+### Cashier Report 
+#### Cashier Report
+![Cashier Report diagram](out/activity-diagram/Management/Cashier_report/การปิดกะ.png)
+#### ลบรายรับอื่นๆที่ผิด
+![Cashier Report diagram](out/activity-diagram/Management/setcashier/iiii.png)
 
-#### ขอใบกำกับภาษี
+### ขอใบกำกับภาษี
 ![Tax Invoice add diagram](out/activity-diagram/Management/TaxInvoice/ขอใบกำกับภาษี.png) 
 
 ---
